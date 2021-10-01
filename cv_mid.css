@@ -1,0 +1,41 @@
+
+div.competences h4{
+    text-align: left;
+}
+#compid ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#compid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+ul#compid{
+    padding: 10px 10px 20px 10px;
+}
+#compid li div{
+    width: auto;
+}
+#compid>li{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+#compid li li{
+    text-align: left;
+}
+div.infos{
+    width: 100%;
+}
+div.profil ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.badger{
+    margin-left: 10px;
+}
+
+
