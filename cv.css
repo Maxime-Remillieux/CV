@@ -142,8 +142,12 @@ ul.audio li{
 ul.audio{
     padding-bottom: 0px;
 }
-a{
+aside a{
     color: #D4D3DC;
+    text-decoration: none;
+}
+main a{
+    color: #242d3e;
     text-decoration: none;
 }
 a:hover{
